@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Steps</title>
+
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Coiny' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Bungee+Shade' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,100italic' rel='stylesheet' type='text/css'>
+  <body>
+  <h1>MUSIC . POSTS . BUCKETLISTS</h1>
+    <!-- the nav menu -->
+    <ul class="nav">
+        <!-- href='#' is needed only to help the links look like links -->
+        <li><a id="showPost" href="#posts" onclick="loadPost()">Posts</a></li>
+
+        <li><a id="showAlbums" href="#albums" onclick="loadAlbums()">Albums</a></li>
+        
+        <li><a id="showTodo" href="#bucketlist" onclick="loadList()">Bucketlist</a></li>
+
+    </ul>
+    <!-- container holds the content of each sub page -->
+    <div id = "container"></div>
+
+</body>  
+
+</html>

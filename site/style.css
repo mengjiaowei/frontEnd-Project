@@ -1,0 +1,67 @@
+body{
+	background-color: #F7CAC9;
+	margin: 0;
+	padding: 0;
+}
+
+
+h1{
+	color: #ffffff;
+	text-align: center;
+    font-family: 'Bungee Shade', cursive;
+	font-size: 50px;
+}
+
+/*styling the nav menu*/
+.nav{
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+    /*padding: auto 200px;*/
+    background-color: #92A8D1;
+    overflow: hidden;
+}
+
+.nav li {
+    float: center;
+    margin: auto 10%;
+	font-family: 'Coiny', cursive;
+    display: inline-block;
+}
+
+.nav li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* underline the text on hover */
+.nav li a:hover {
+	text-decoration: underline;
+}
+
+
+.bulleted{
+	list-style-type: none;
+	margin: 10px 500px;
+}
+
+.bulleted li{
+	font-size: 18px;
+	background: white;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-spacing: 15px;
+  	border-color: gray;
+  	border-bottom: 1px #e5e5e5 solid;
+  	font-family: 'Alegreya Sans SC', sans-serif;
+  	color: #92A8D1;
+
+}
+/*line through the finish task*/
+.done{
+	text-decoration: line-through;
+}
